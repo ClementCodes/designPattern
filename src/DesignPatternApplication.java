@@ -17,6 +17,7 @@ public class DesignPatternApplication {
 		Canard colvert = new Colvert();
 		 colvert.effectuerCancan();
 		 colvert.effectuerVol();
+		 colvert.afficher("colvert vert qui boit un verre de vers");
 
 	}
 
