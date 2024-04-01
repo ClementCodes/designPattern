@@ -1,6 +1,6 @@
 
 
-public interface ComportementCancan {
+public interface ComportementCancan   {
 
 	void cancaner(); 
 	
