@@ -8,10 +8,11 @@ public class AffichagePrevisions implements Observateur , Affichage {
 		
 	}
 
-	@Override
-	public void actualiser() {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
+
+    @Override
+    public void actualiser(float temp, float humidite, float pression) {
+        // TODO
+    }
 }

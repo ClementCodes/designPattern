@@ -8,12 +8,13 @@ public class AffichageTiers implements Observateur, Affichage{
 		
 	}
 
-	@Override
-	public void actualiser() {
-		// TODO Auto-generated method stub
-		System.out.println("Afficher autre chose en fonction des meusures");
-	}
+	
 
 	
 	
+
+    @Override
+    public void actualiser(float temp, float humidite, float pression) {
+        // TODO
+    }
 }

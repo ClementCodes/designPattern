@@ -2,11 +2,7 @@ package _2_observateur;
 
 public class AffichageStats implements Affichage ,Observateur {
 
-	@Override
-	public void actualiser() {
-		// TODO Auto-generated method stub
-		
-	}
+
 
 	@Override
 	public void afficher() {
@@ -17,4 +13,9 @@ public class AffichageStats implements Affichage ,Observateur {
 
 	
 	
+
+    @Override
+    public void actualiser(float temp, float humidite, float pression) {
+        // TODO
+    }
 }
