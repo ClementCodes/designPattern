@@ -8,9 +8,9 @@ public class StationMeteo {
        
        
         DonneesMeteo donneesMeteo = new DonneesMeteo();
-        AffichagesConditions affichageCond = new AffichagesConditions(); 
-        AffichageStats affichageStat = new AffichageStats(); 
-        AffichagePrevisions affichagePrev = new AffichagePrevisions();
+        AffichagesConditions affichageCond = new AffichagesConditions(donneesMeteo); 
+        AffichageStats affichageStat = new AffichageStats(donneesMeteo); 
+        AffichagePrevisions affichagePrev = new AffichagePrevisions(donneesMeteo);
         donneesMeteo.setMesures(26, 65, 1020); 
         donneesMeteo.setMesures(28, 70, 1012);
          donneesMeteo.setMesures(22, 90, 1012);
