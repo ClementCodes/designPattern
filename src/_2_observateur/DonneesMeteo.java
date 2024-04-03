@@ -10,8 +10,10 @@ public class DonneesMeteo implements Sujet {
 	private float pression;
 
 	public DonneesMeteo() {
-		this.observateurs = new ArrayList<Observateur>();
+		observateurs = new ArrayList<Observateur>();
 	}
+
+	
 
 	@Override
 	public void enregistrerObservateur(Observateur o) {
