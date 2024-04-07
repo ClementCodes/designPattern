@@ -1,4 +1,4 @@
-package _2_observateur.abonné;
+package observateur.abonne;
 
 //les abonnés
 public interface Observateur {

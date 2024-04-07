@@ -1,13 +1,13 @@
-package _2_observateur.composant;
+package   observateur.composant;
 
-import _2_observateur.Affichage;
-import _2_observateur.Journal.Sujet;
-import _2_observateur.abonné.Observateur;
+import   observateur.Affichage;
+import   observateur.Journal.Sujet;
+import   observateur.abonné.Observateur;
 
 public class AffichageStats implements Affichage, Observateur {
 
 	private float temperature;
-	private float humidite;
+    private float humidite;
 	private Sujet donneesMeteo;
 
 	public AffichageStats(Sujet donneesMeteo2) {
@@ -25,3 +25,4 @@ public class AffichageStats implements Affichage, Observateur {
 		afficher();
 	}
 }
+

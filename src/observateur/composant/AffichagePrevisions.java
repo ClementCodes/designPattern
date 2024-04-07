@@ -1,4 +1,4 @@
-package _2_observateur.composant;
+package observateur.composant;
 
 import _2_observateur.Affichage;
 import _2_observateur.Journal.Sujet;

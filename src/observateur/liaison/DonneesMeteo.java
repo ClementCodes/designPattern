@@ -1,4 +1,4 @@
-package _2_observateur.liaison;
+package observateur.liaison;
 
 import java.util.ArrayList;
 

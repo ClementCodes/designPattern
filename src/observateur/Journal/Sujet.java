@@ -1,4 +1,4 @@
-package _2_observateur.Journal;
+package observateur.Journal;
 
 import _2_observateur.abonné.Observateur;
 

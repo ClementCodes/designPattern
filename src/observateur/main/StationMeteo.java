@@ -1,9 +1,9 @@
-package _2_observateur.Main;
+package observateur.main;
 
-import _2_observateur.composant.AffichagePrevisions;
-import _2_observateur.composant.AffichageStats;
-import _2_observateur.composant.AffichagesConditions;
-import _2_observateur.liaison.DonneesMeteo;
+import  observateur.composant.AffichagePrevisions;
+import  observateur.composant.AffichageStats;
+import  observateur.composant.AffichagesConditions;
+import  observateur.liaison.DonneesMeteo;
 
 public class StationMeteo {
 

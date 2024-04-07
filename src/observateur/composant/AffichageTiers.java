@@ -1,7 +1,7 @@
-package _2_observateur.composant;
+package observateur.composant;
 
-import _2_observateur.Affichage;
-import _2_observateur.abonné.Observateur;
+import   observateur.Affichage;
+import   observateur.abonné.Observateur;
 
 public class AffichageTiers implements Observateur, Affichage {
 

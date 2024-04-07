@@ -1,4 +1,4 @@
-package _2_observateur;
+package   observateur;
 
 public interface Affichage {
 
